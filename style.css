@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #fdfcfb;
+    color: #111;
+  }
+  
+  header {
+    background: linear-gradient(45deg, #ff3c38, #ffbb00);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: #ffeb3b;
+  }
+  
+  main {
+    padding: 2rem;
+    background: #f0f8ff;
+  }
+  
+  footer {
+    background: linear-gradient(45deg, #ff3c38, #ffbb00);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .gallery {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .comic {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 4px 4px 0 #222;
+    width: 220px;
+    text-align: center;
+    border: 3px solid #222;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .comic:hover {
+    transform: scale(1.05);
+    box-shadow: 6px 6px 0 #444;
+  }
+  
+  .comic img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #222;
+  }
+  
+  .comic a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    background: #673ab7;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .comic a:hover {
+    background: #512da8;
+  }
+  
